@@ -234,3 +234,147 @@ nav button{
     font-weight:bold;
     cursor:pointer;
 }
+.tech-pulse{
+    max-width:1140px;
+    margin:100px auto;
+    padding:70px;
+    border-radius:20px;
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+    color:white;
+    text-align:center;
+}
+
+.tech-pulse h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.pulse-subtitle{
+    color:#9CA3AF;
+    margin-bottom:50px;
+}
+
+.poll-list{
+    display:flex;
+    flex-direction:column;
+    gap:26px;
+    text-align:left;
+    max-width:700px;
+    margin:0 auto;
+}
+
+.poll-label{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:8px;
+    font-size:15px;
+}
+
+.poll-name{
+    font-weight:600;
+    color:#E5E7EB;
+}
+
+.poll-percent{
+    font-weight:bold;
+    color:#818CF8;
+}
+
+.poll-bar-track{
+    width:100%;
+    height:14px;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.poll-bar-fill{
+    height:100%;
+    border-radius:20px;
+    width:0%;
+    background: linear-gradient(90deg, #4F46E5, #635BFF);
+    animation: fillBar 1.4s ease-out forwards;
+}
+
+.ai-fill{
+    animation-name: fillAI;
+}
+
+.cloud-fill{
+    animation-name: fillCloud;
+}
+
+.security-fill{
+    animation-name: fillSecurity;
+}
+
+.frontend-fill{
+    animation-name: fillFrontend;
+}
+
+.web3-fill{
+    animation-name: fillWeb3;
+}
+
+@keyframes fillAI{
+    from{
+        width:0%;
+    }
+    to{
+        width:87%;
+    }
+}
+
+@keyframes fillCloud{
+    from{
+        width:0%;
+    }
+    to{
+        width:76%;
+    }
+}
+
+@keyframes fillSecurity{
+    from{
+        width:0%;
+    }
+    to{
+        width:68%;
+    }
+}
+
+@keyframes fillFrontend{
+    from{
+        width:0%;
+    }
+    to{
+        width:59%;
+    }
+}
+
+@keyframes fillWeb3{
+    from{
+        width:0%;
+    }
+    to{
+        width:41%;
+    }
+}
+
+.pulse-note{
+    margin-top:50px;
+    font-size:14px;
+    color:#9CA3AF;
+}
+
+@media (max-width:480px){
+    .tech-pulse{
+        padding:40px 20px;
+    }
+
+    .tech-pulse h2{
+        font-size:28px;
+    }
+}
