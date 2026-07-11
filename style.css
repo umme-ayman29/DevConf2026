@@ -378,3 +378,61 @@ nav button{
         font-size:28px;
     }
 }
+.footer{
+    background:#111827;
+    padding:50px 80px 30px;
+}
+
+.footer-container{
+    max-width:1140px;
+    margin:0 auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:170px;
+}
+
+.social-icons{
+    display:flex;
+    gap:18px;
+}
+
+.social-icons a{
+    width:42px;
+    height:42px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#1F2937;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#5B4CF4;
+}
+
+.footer hr{
+    max-width:1140px;
+    margin:35px auto 20px;
+    border:none;
+    border-top:1px solid #374151;
+}
+
+.copyright{
+    text-align:center;
+    color:#9CA3AF;
+    font-size:15px;
+}
