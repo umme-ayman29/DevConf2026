@@ -137,3 +137,100 @@ nav button{
     color:#666;
     line-height:26px;
 }
+.pricing{
+    max-width:1140px;
+    margin:100px auto;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.pricing-subtitle{
+    color:#6B7280;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:flex;
+    gap:30px;
+}
+
+.price-card{
+    flex:1;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:35px 30px;
+    text-align:left;
+}
+
+.featured{
+    background:#111827;
+    color:white;
+}
+
+.plan{
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.price-card h3{
+    font-size:52px;
+    margin-bottom:5px;
+}
+
+.price-text{
+    color:#6B7280;
+    margin-bottom:20px;
+}
+
+.featured .price-text{
+    color:#D1D5DB;
+}
+
+.price-card hr{
+    margin:20px 0;
+    border:none;
+    border-top:1px solid #E5E7EB;
+}
+
+.featured hr{
+    border-color:#374151;
+}
+
+.price-card ul{
+    list-style:disc;
+    padding-left:20px;
+    margin-bottom:30px;
+}
+
+.price-card ul li{
+    margin-bottom:15px;
+    line-height:24px;
+}
+
+.outline-btn{
+    width:100%;
+    padding:14px;
+    background:white;
+    border:2px solid #4F46E5;
+    color:#4F46E5;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.filled-btn{
+    width:100%;
+    padding:14px;
+    background:#4F46E5;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
